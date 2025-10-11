@@ -8,21 +8,26 @@ export const DATA = {
   location: "Maharashtra, India",
   locationLink: "https://maps.app.goo.gl/4LZPR2GZNr1opywr6",
   description:
-    "I enjoy helping people bring their ideas to life. Always eager to learn, grow. Experienced in Vuejs and PHP(Laravel)",
+    "Full Stack Engineer specializing in scalable backend systems and interactive front-end development using NestJS, Node.js, TypeScript, PostgreSQL, and Vue.js.",
   summary:
-    "Hi, I’m Vibhor Patil, a Full Stack Laravel Developer based in Nagpur, Maharashtra. With expertise in HTML, CSS, JavaScript,Vuejs, PHP (Laravel), and MySQL, I’m passionate about building innovative web solutions. I've worked on multiple projects, enhancing both my technical and collaboration skills. My goal is to keep growing as a developer and stay ahead of emerging technologies.",
+    "Hi, I’m Vibhor Patil — a Full Stack Engineer based in Nagpur, Maharashtra. I specialize in developing high-performance applications using Node.js, NestJS, TypeScript, PostgreSQL, and Vue.js. Over the years, I’ve worked across multiple projects, improving system design, backend performance, and overall user experience. I’m passionate about building reliable digital solutions and continuously growing as a developer in modern web technologies.",
   avatarUrl: "/me.jpg",
   skills: [
+    "Node.js",
+    "NestJS",
+    "TypeScript",
+    "Restful API",
+    "PostgreSQL",
+    "Vue.js",
+    "JavaScript",
+    "Tailwind CSS",
+    "Docker",
     "Bootstrap",
-    "Tailwind",
-    "Javascript",
-    "Vuejs",
     "Ajax",
     "PHP",
     "MySQL",
     "AWS",
     "Laravel",
-    "Restful API",
     "Touch Typing",
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
@@ -77,7 +82,7 @@ export const DATA = {
       logoUrl: "/ym_logo2.svg",
       start: "March 2025",
       end: "Present",
-      description: "Contributing to the digital infrastructure of a fast-growing fintech startup delivering doorstep gold loans across rural India. I design and develop scalable backend systems using Laravel, Vue.js, and AWS, playing a key role in building tech that reaches the grassroots.",
+      description: "Developing scalable financial systems using NestJS (Node.js + TypeScript), PostgreSQL, Docker, and AWS. Focused on API design, performance optimization, and data-driven service architecture.",
     },
     {
       company: "EMT Times Pvt Ltd",
@@ -88,7 +93,7 @@ export const DATA = {
       logoUrl: "/emt_logo.png",
       start: "July 2024",
       end: "February 2025",
-      description: "",
+      description: "Worked on the end-to-end development of internal dashboards and public websites using Vue.js and Laravel, integrating APIs and optimizing database queries.",
     },
     {
       company: "ICEICO Technologies Pvt Ltd",
@@ -100,7 +105,7 @@ export const DATA = {
       start: "March 2023",
       end: "June 2024",
       description:
-        "I implemented seamless communication between the front-end and back-end by developing backend functionality using PHP and MySQL. I proficiently worked on Laravel projects and RESTful APIs, contributing to diverse web development initiatives.",
+        "Implemented full-stack web applications using Laravel, Vue.js, and MySQL. Developed REST APIs, improved backend performance, and maintained company web portals.",
     },
     {
       company: "ICEICO Technologies Pvt Ltd",
@@ -112,7 +117,7 @@ export const DATA = {
       start: "September 2022",
       end: "February 2023",
       description:
-        "I learned cool coding skills like JavaScript, PHP, and SQL, and even used them in various projects. I also became familiar with Git, a powerful tool for managing code. It was a great experience to put my knowledge into practice.",
+        "Gained practical experience in PHP, JavaScript, and SQL. Worked on live projects and learned modern development practices including version control and code deployment.",
     },
   ],
   education: [
