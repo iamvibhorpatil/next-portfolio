@@ -140,12 +140,52 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Laravel-to-NestJS Migration Project",
+      href: "",
+      dates: "",
+      active: true,
+      description:
+        "Led the Migration of a legacy Laravel application into a modern NestJS + TypeScript architecture to enhance scalability, maintainability, and security.",
+      technologies: [
+        "Nodejs",
+        "TypeScript",
+        "NestJS",
+        "REST API",
+        "PostgreSQL",
+        "Prisma ORM",
+        "Swagger Documentation",
+        "Docker",
+      ],
+      image: "",
+      video: "/web/",
+    },
+    {
+      title: "SaaS Admin Dashboard",
+      href: "",
+      dates: "",
+      active: true,
+      description:
+        " Developed a fully functional SaaS-Based Admin Dashboard using Vue.js and Tailwind CSS, designed with modular and reusable components for scalability and performance.",
+      technologies: [
+        "Vuejs",
+        "Tailwind CSS",
+        "State Management",
+        "REST API",
+        "Laravel",
+        "MySql",
+        "Responsive Design",
+        "Real-Time Data Visualization",
+      ],
+      image: "",
+      video: "/web/",
+    },
+    {
       title: "EMT Times",
       href: "https://emttimes.com/",
       dates: "",
       active: true,
       description:
-        "Under Construction",
+        "A broadcasting platform specializing in impactful TV advertisements. We create high-quality, strategic ad campaigns to enhance brand visibility and drive growth.",
       technologies: [
         "Bootstrap",
         "Javascript",
@@ -153,13 +193,6 @@ export const DATA = {
         "Laravel",
         "Sweet Alert",
         "MySQL",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://emttimes.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
       ],
       image: "",
       video: "/web/emt.mp4",
@@ -169,7 +202,7 @@ export const DATA = {
       href: "https://shoppingnshoppers.com/",
       dates: "",
       active: true,
-      description: "Under Construction",
+      description: "",
       technologies: [
         "Bootstrap",
         "Javascript",
@@ -178,13 +211,6 @@ export const DATA = {
         "Sweet Alert",
         "RazorPay",
         "MySQL",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://shoppingnshoppers.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
       ],
       image: "",
       video: "/web/shopping.mp4",
@@ -206,13 +232,6 @@ export const DATA = {
         "Laravel",
         "MySQL",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "https://vunl.co.in/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
       image: "",
       video: "/web/vunl.mp4",
     },
@@ -230,13 +249,6 @@ export const DATA = {
         "Ajax",
         "PHP",
         "MySQL",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://apniprajahitparty.org/",
-          icon: <Icons.globe className="size-3" />,
-        },
       ],
       image: "",
       video: "/web/app.mp4",
@@ -256,13 +268,6 @@ export const DATA = {
         "PHP",
         "MySQL",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "https://rdcedu.in/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
       image: "",
       video: "/web/rdc.mp4",
     },
@@ -280,13 +285,6 @@ export const DATA = {
         "Ajax",
         "PHP",
         "MySQL",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://iceico.in/",
-          icon: <Icons.globe className="size-3" />,
-        },
       ],
       image: "",
       video: "/web/iceico.mp4",
