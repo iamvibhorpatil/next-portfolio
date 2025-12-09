@@ -56,18 +56,12 @@ export const DATA = {
 
         navbar: false,
       },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
-        navbar: false,
-      },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:vibhorpatil808@gmail.com",
         icon: Icons.email,
 
-        navbar: false,
+        navbar: true,
       },
     },
   },
@@ -181,7 +175,7 @@ export const DATA = {
     },
     {
       title: "EMT Times",
-      href: "https://emttimes.com/",
+      href: "",
       dates: "",
       active: true,
       description:
@@ -199,7 +193,7 @@ export const DATA = {
     },
     {
       title: "Shopping & Shoppers",
-      href: "https://shoppingnshoppers.com/",
+      href: "",
       dates: "",
       active: true,
       description: "",
@@ -217,7 +211,7 @@ export const DATA = {
     },
     {
       title: "Vindhyeshvari Urban Nidhi Limited",
-      href: "https://vunl.co.in/",
+      href: "",
       dates: "",
       active: true,
       description:
@@ -237,7 +231,7 @@ export const DATA = {
     },
     {
       title: "Apni Prajahit Party",
-      href: "https://apniprajahitparty.org/",
+      href: "",
       dates: "",
       active: true,
       description:
@@ -255,7 +249,7 @@ export const DATA = {
     },
     {
       title: "Raje Dharmarao Arts & Commerce College",
-      href: "https://rdcedu.in/",
+      href: "",
       dates: "",
       active: true,
       description:
@@ -273,7 +267,7 @@ export const DATA = {
     },
     {
       title: "ICEICO",
-      href: "https://iceico.in/",
+      href: "",
       dates: "",
       active: true,
       description:
