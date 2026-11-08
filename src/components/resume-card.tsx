@@ -60,8 +60,8 @@ export const ResumeCard = ({
             <div className="flex items-center justify-between gap-x-2 text-base">
               <h3 className="inline-flex items-center justify-center font-semibold leading-none text-xs sm:text-sm">
                 {title}
-                {badges && (
-                  <span className="inline-flex gap-x-1">
+                {badges && badges.length > 0 && (
+                  <span className="inline-flex gap-x-1 ml-2">
                     {badges.map((badge, index) => (
                       <Badge
                         variant="secondary"
@@ -98,7 +98,7 @@ export const ResumeCard = ({
                 duration: 0.7,
                 ease: [0.16, 1, 0.3, 1],
               }}
-              className="mt-2 text-xs sm:text-sm"
+              className="mt-2 text-xs sm:text-sm whitespace-pre-line text-muted-foreground"
             >
               {description}
             </motion.div>

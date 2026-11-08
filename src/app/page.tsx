@@ -206,15 +206,21 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm{" "}
+                Want to connect or discuss an engineering opportunity? Reach out directly via{" "}
                 <Link
-                  href={DATA.contact.social.X.url}
+                  href={`mailto:${DATA.contact.email}`}
                   className="text-blue-500 hover:underline"
                 >
-                  with a direct question on twitter
+                  email
                 </Link>{" "}
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                or message me on{" "}
+                <Link
+                  href={DATA.contact.social.LinkedIn.url}
+                  className="text-blue-500 hover:underline"
+                >
+                  LinkedIn
+                </Link>
+                . I&apos;m always open to discussing high-reliability systems, fintech architecture, and full-stack engineering challenges.
               </p>
             </div>
           </BlurFade>
